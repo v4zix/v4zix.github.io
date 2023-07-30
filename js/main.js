@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var min = document.querySelector('.min');
   var second = document.querySelector('.second');
 
-  var startDate = new Date('2023-06-04T22:04:00');
+  var startDate = new Date('2023-07-26T01:04:00');
   days.innerText = Math.floor((new Date - startDate)/86400000);
   countTime();
 
